@@ -107,7 +107,7 @@ html{
 
 
 .hero-image {
-    background-image: url(../images/sunset.jpg);
+    background-image: url(../src/assets/images/sunset.jpg);
     background-color: #cccccc;
     height: 1500px;
     position: relative;
