@@ -8,6 +8,7 @@ import About from "./components/About/About.js";
 import Work from "./components/Work/Work.js";
 import Contact from "./components/Contact/Contact.js";
 import Resume from "./components/Resume/Resume.js";
+import Footer from "./components/Footer/Footer.js";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Work />
         <Contact />
         <Resume />
+        <Footer />
       </div>
     </div>
   );
