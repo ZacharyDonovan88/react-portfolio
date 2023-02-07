@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-d
 function App() {
   return (
     <div>
-      <Header />,
       <Home />,
       <Navbar />
     </div>
