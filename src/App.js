@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar/Navbar.js";
 import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom';
 import About from "./components/About/About.js";
 import Work from "./components/Work/Work.js";
-import Contact from "./components/Contact/Contact.js"
+import Contact from "./components/Contact/Contact.js";
+import Resume from "./components/Resume/Resume.js";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Work />
         <Contact />
+        <Resume />
       </div>
     </div>
   );
