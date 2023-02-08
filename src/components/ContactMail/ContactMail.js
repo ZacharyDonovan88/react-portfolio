@@ -1,8 +1,10 @@
 import React from "react";
+import 'semantic-ui-css/semantic.min.css';
 import "../../style.css";
 import '../../App.css';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
+
 
 // npm i @emailjs/browser
 
