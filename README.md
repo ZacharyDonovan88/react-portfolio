@@ -9,6 +9,14 @@ This is a WebPage for empolyers to visit and inspect my portfolio.
 
 ## Installation 
 
-To open locally, you must run in terminal,
+To open locally, you must open the terminal and install the node modules,
 
-*npm i*
+>npm i
+
+then,
+
+>npm start
+
+## Screenshots
+
+## Live URL
