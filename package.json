@@ -1,5 +1,6 @@
 {
   "name": "react-portfolio",
+  "homepage": "https://zacharydonovan88.github.io/react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^5.0.0",
     "gsap-trial": "^3.11.4",
     "html-webpack-plugin": "^5.5.0",
     "react": "^18.2.0",
@@ -29,6 +31,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
