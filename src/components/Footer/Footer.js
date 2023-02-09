@@ -5,8 +5,8 @@ import "./footer.css"
 function Footer() {
     return (
         <footer>
-            <div className="footerText" id="footerBanner">
-                <h4>Created by Zachary Ceruto</h4>
+            <div id="footerBanner">
+                <h4 className="footerText">Created by Zachary Ceruto</h4><a href="https://github.com/ZacharyDonovan88" target="_blank"><img class="gitFooterLogo" src={require('../../assets/images/gitLogo.png')} alt="Github"/></a>
             </div>
         </footer>
     );
