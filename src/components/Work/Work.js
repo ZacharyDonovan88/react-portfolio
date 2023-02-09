@@ -5,7 +5,7 @@ function About() {
     return (
         <div class="worksec" id="work">
             <section>
-                <h3>Work</h3>
+                <h3 className="h3">Work</h3>
                 <div class="row">
                     <div class="column work-container">
                         <a href="https://zacharydonovan88.github.io/Pick-a-Pup-WebPage/" target="_blank"><img

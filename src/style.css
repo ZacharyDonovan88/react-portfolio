@@ -9,13 +9,6 @@ h2 {
     margin: 1rem 0;
 }
 
-h3 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 42px;
-    box-shadow: 5px 2px rgb(109, 109, 109);
-    margin: 1rem 0;
-}
-
 p {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +18,12 @@ html{
     scroll-behavior: smooth
     }
 
-    
+.h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 42px;
+    box-shadow: 5px 2px rgb(109, 109, 109);
+    margin-top: 40px;
+}    
 
 /* end of general */
 

@@ -6,7 +6,6 @@ import Work from "./components/Work/Work.js";
 import Contact from "./components/Contact/Contact.js";
 import Resume from "./components/Resume/Resume.js";
 import Footer from "./components/Footer/Footer.js";
-import ContactMail from "./components/ContactMail/ContactMail.js"
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <About />
         <Work />
         <Contact />
-        <ContactMail />
         <Resume />
         <Footer />
       </div>

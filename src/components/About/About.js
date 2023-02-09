@@ -5,7 +5,7 @@ function About() {
     return (
         <div>
             <section>
-                <h3 id="aboutme">About me</h3>
+                <h3 className="h3" id="aboutme">About me</h3>
                 <p>Hello, I am Zachary, 23 year old male. I am currently studying Web Developing at Adelaide Uni
                     Bootcamp. My goal is too develop my currently
                     skills and hopefully find a new career path. What made me so interested in Web Developing

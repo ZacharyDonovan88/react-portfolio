@@ -1,9 +1,11 @@
 import React from "react";
-import 'semantic-ui-css/semantic.min.css';
 import "../../style.css";
 import '../../App.css';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
+import "./contactMail.css";
+import {Helmet} from 'react-helmet';
+import 'semantic-ui-css/semantic.min.css';
 
 
 // npm i @emailjs/browser
@@ -34,8 +36,14 @@ const App = () => {
   };
 
 return (
+  <div>
+    {/* Ignore helmet section, here for testing purposes */}
+    <Helmet>
+    <link rel="stylesheet" href="./ContactMail/Contact.module.css" />
+    </Helmet>
+
     <div className='Mail'>
-      <Form onSubmit={handleOnSubmit}>
+      <Form onSubmit={handleOnSubmit} class="box">
         <Form.Field
           id='form-input-control-email'
           control={Input}
@@ -67,6 +75,7 @@ return (
         <Button type='submit' color='green'>Submit</Button>
       </Form>
     </div>
+  </div>  
   );
 }
 
